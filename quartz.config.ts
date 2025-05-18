@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Squawkykaka's Blog",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "squawkykaka.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -25,7 +25,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Schibsted Grotesk",
         body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
